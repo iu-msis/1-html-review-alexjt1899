@@ -1,0 +1,174 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+
+
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/cover/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" type="text/css" href="CSS.css">
+
+  </head>
+
+  <body class="text-center">
+
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Learn More</h3>
+          <nav class="topnav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href=""Profile.html">About Me</a>
+            <a class="nav-link" href="Books.html">Favorite Books</a>
+          </nav>
+        </div>
+      </header>
+
+      <p>  </p>
+
+      <table class="table table-dark" id="booktable">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Title</th>
+        <th scope="col">Author</th>
+        <th scope="col">Year Published</th>
+        <th scope="col">Publisher</th>
+        <th scope="col">Page Count</th>
+        <th scope="col">MSRP</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>A Game of Thrones</td>
+        <td>George R. R. Martin</td>
+        <<td>1996</td>
+        <td>Bantam Spectra</td>
+        <td> 694 </td>
+        <td>$7</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Harry Potter and the Sorcerer's Stone</td>
+        <td>J. K. Rowling</td>
+        <td>1997</td>
+        <td>Bloomsbury</td>
+        <td>476</td>
+        <td>$8</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>This is a Fake Book</td>
+        <td>Pseudo Nym</td>
+        <td>2020</td>
+        <td>Publish House</td>
+        <td>678</td>
+        <td>$20</td>
+      </tr>
+
+      <tr>
+        <th scope="row">4</th>
+        <td>The Armchair Economist</td>
+        <td>Steven Landsburg</td>
+        <td>1993</td>
+        <td>Free Press</td>
+        <td>241</td>
+        <td>$12.99</td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>Their Eyes Were Watching God</td>
+        <td>Zora Hurston</td>
+        <td>1937</td>
+        <td>JB Lippincott & Co.</td>
+        <td>219</td>
+        <td>$8.99</td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td>The Pelican Brief</td>
+        <td>John Grisham</td>
+        <td>1992</td>
+        <td>Doubleday</td>
+        <td>498</td>
+        <td>$4.99</td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td>A Clash of Kings</td>
+        <td>George RR Martin</td>
+        <td>@1998</td>
+        <td>Bantam Spectra</td>
+        <td>761</td>
+        <td>$10</td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td>A Storm of Swords</td>
+        <td>George RR Martin</td>
+        <td>2000</td>
+        <td>Bantam Spectra</td>
+        <td>973</td>
+        <td>$10</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <form>
+  <div class="form-group">
+    <label >Title</label>
+    <input  class="form-control"   placeholder="Enter title">
+
+  <div class="form-group">
+    <label >Author</label>
+    <input  class="form-control" id="authorinput" placeholder="author">
+  </div>
+  <div class="form-group">
+    <label >Publish Date</label>
+    <input class="form-control" id="dateinput" placeholder="publish date">
+  </div>
+  <div class="form-group">
+    <label >Publisher</label>
+    <input class="form-control" id="publisherinput" placeholder="publisher">
+  </div>
+  <div class="form-group">
+    <label >Page Count</label>
+    <input class="form-control" id="PageCountinput" placeholder="page count">
+  </div>
+  <div class="form-group">
+    <label >MSRP</label>
+    <input class="form-control" id="msrpinput" placeholder="MSRP">
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+          <p>Made with Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>,</p>
+        </div>
+      </footer>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+<!-- Cover Template from Bootstrap -->
